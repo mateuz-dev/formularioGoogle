@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 65px;
+    width: 100vw;
+    padding-right: 30px;
+    color: black;
+}
+
+.link{
+    font-family: Arial,sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    padding-right: 15px;
+}
+.link a:hover{
+    text-decoration: black;
+    border-bottom: 1px black;
+}
+
+.appsIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 15px;
+    transition: .5s;
+}
+.appsIcon:hover{
+    background-color: rgb(220, 220, 220);
+    cursor: pointer;
+}
+#appsIconImg{
+    width: 22px;
+    height: 22px;
+}
+
+#userAccountIcon{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+    width: 100vw;
+    height: 100vh;
+}
+
+#googleLogo{
+    width: 275px;
+}
+
+#textBar{
+    width: 550px;
+    height: 40px;
+    border-radius: 25px;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-family: Arial,sans-serif;
+    font-size: 18px;
+    transition: .2s;
+}
+#textBar:hover{
+    box-shadow: 0 0 .5em gray;
+}
+
+.search button{
+    width: 45px;
+    height: 30px;
+}
+#buttonSearch{
+    width: 45px;
+    height: 30px;
+    margin-top: 10px;
+    background: none;
+    outline: none;
+    padding-left: 15px;
+}
+
+.search button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+}
+.buttons button{
+    margin-top: 25px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+
+    border-radius: 5px;
+    border: none;
+
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+
+    height: 35px;
+}
+.buttons button:hover{
+    box-shadow: 0 0 .3em gray;
+}
