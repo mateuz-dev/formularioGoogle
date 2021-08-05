@@ -1,5 +1,5 @@
 <?php
 
-if (($_GET["q"]) isset && !empty){
+if (($_GET["q"]) !empty){
     $q = $_GET["q"];
 }

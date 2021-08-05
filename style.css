@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/*---------------------------------------*/
+
 header{
     display: flex;
     align-items: center;
@@ -52,6 +54,8 @@ header{
     cursor: pointer;
 }
 
+/*---------------------------------------*/
+
 body{
     display: flex;
     flex-direction: column;
@@ -61,19 +65,25 @@ body{
     height: 100vh;
 }
 
+/*---------------------------------------*/
+
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin-top: 20px;
+    margin-top: 150px;
     width: 100vw;
     height: 100vh;
 }
 
+/*---------------------------------------*/
+
 #googleLogo{
     width: 275px;
 }
+
+/*---------------------------------------*/
 
 #textBar{
     width: 550px;
@@ -89,25 +99,27 @@ main{
     box-shadow: 0 0 .5em gray;
 }
 
-.search button{
-    width: 45px;
-    height: 30px;
-}
-#buttonSearch{
-    width: 45px;
-    height: 30px;
-    margin-top: 10px;
-    background: none;
+input:focus, textarea:focus, select:focus{
     outline: none;
-    padding-left: 15px;
 }
 
+/*---------------------------------------*/
+
 .search button{
+    width: 45px;
+    height: 30px;
+    margin-top: 25px;
     border: none;
     background: none;
     cursor: pointer;
 }
-
+#buttonSearch{
+    width: 45px;
+    height: 30px;
+    background: none;
+    outline: none;
+    padding-left: 15px;
+}
 
 .buttons{
     display: flex;
@@ -133,3 +145,5 @@ main{
 .buttons button:hover{
     box-shadow: 0 0 .3em gray;
 }
+
+/*---------------------------------------*/
